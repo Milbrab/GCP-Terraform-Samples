@@ -1,6 +1,6 @@
 A Terraform template that deploys an HTTP ELB, multiple VM-Series firewalls, a Google Kubernetes Engine Load Balancer and associated subnets (as in the image shown below). In addition, the Terraform template can be used in conjunction with bootstrapping to automate additional VM-Series firewall to configuration parameters such as routes, security policies, etc.
 
- <img width="296" alt="image" src="https://user-images.githubusercontent.com/30295405/41330604-56283b32-6e89-11e8-94c1-fc31f9d9afb1.png">
+ ### <img width="296" alt="image" src="https://user-images.githubusercontent.com/30295405/41330604-56283b32-6e89-11e8-94c1-fc31f9d9afb1.png">
  
 ### Support Policy
 
