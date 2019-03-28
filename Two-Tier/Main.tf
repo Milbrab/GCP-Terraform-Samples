@@ -184,7 +184,7 @@ resource "google_compute_instance" "firewall" {
     vmseries-bootstrap-gce-storagebucket = "${var.bootstrap_bucket_fw}"
     serial-port-enable                   = true
 
-    # sshKeys                              = "${var.public_key}"
+    # ssh-keys                              = "${var.public_key}"
   }
 
   service_account {
