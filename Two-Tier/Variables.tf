@@ -72,7 +72,7 @@ variable "interface_3_name" {
 }
 
 variable "image_db" {
-  default = "debian-8"
+  default = "debian-9"
 }
 
 variable "db_startup_script_bucket" {
@@ -108,7 +108,7 @@ variable "interface_2_name" {
 }
 
 variable "image_web" {
-  default = "debian-8"
+  default = "debian-9"
 }
 
 variable "web_startup_script_bucket" {
