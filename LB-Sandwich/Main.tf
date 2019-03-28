@@ -130,7 +130,7 @@ resource "google_compute_instance" "firewall" {
     vmseries-bootstrap-gce-storagebucket = "${var.bootstrap_bucket_fw}"
     serial-port-enable                   = true
 
-    # sshKeys                              = "${var.public_key}"
+    # ssh-keys                              = "${var.public_key}"
   }
 
   service_account {
@@ -220,7 +220,7 @@ resource "google_compute_instance" "webserver-1" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-8"
+      image = "debian-cloud/debian-9"
     }
   }
 
@@ -243,7 +243,7 @@ resource "google_compute_instance" "webserver-2" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-8"
+      image = "debian-cloud/debian-9"
     }
   }
 
@@ -266,7 +266,7 @@ resource "google_compute_instance" "webserver-3" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-8"
+      image = "debian-cloud/debian-9"
     }
   }
 
@@ -289,7 +289,7 @@ resource "google_compute_instance" "webserver-4" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-8"
+      image = "debian-cloud/debian-9"
     }
   }
 
